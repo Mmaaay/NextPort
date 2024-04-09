@@ -95,24 +95,26 @@ export default function Intro() {
           Download CV
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <a
-          rel="noopener"
-          title="Linkedin"
-          href="https://www.linkedin.com/in/mazen-mohammedaay/"
-          target="_blank"
-          className="group flex bg-white border border-black/10 text-gray-700 p-4 items-center gap-2 rounded-full cursor-pointer outline-none hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:text-white/60 dark:bg-white/10"
-        >
-          <BsLinkedin />
-        </a>
-        <a
-          rel="noopener"
-          title="Github"
-          href="https://github.com/Mmaaay"
-          target="_blank"
-          className="group flex bg-white border border-black/10 text-gray-700 p-4 items-center gap-2 text-[1.35rem] rounded-full cursor-pointer outline-none hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:text-white/60 dark:bg-white/10 "
-        >
-          <FaGithubSquare />
-        </a>
+<div className="flex flex-row gap-4">
+          <a
+            rel="noopener"
+            title="Linkedin"
+            href="https://www.linkedin.com/in/mazen-mohammedaay/"
+            target="_blank"
+            className="group flex bg-white border border-black/10 text-gray-700 p-4 items-center gap-2 rounded-full cursor-pointer outline-none hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:text-white/60 dark:bg-white/10"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            rel="noopener"
+            title="Github"
+            href="https://github.com/Mmaaay"
+            target="_blank"
+            className="group flex bg-white border border-black/10 text-gray-700 p-4 items-center gap-2 text-[1.35rem] rounded-full cursor-pointer outline-none hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:text-white/60 dark:bg-white/10 "
+          >
+            <FaGithubSquare />
+          </a>
+</div>
       </motion.div>
     </section>
   );
