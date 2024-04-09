@@ -35,7 +35,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl hover:scale-[4] transition duration-500 cursor-pointer hover:z-[999] hover:relative"
+              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl hover:scale-[2.5] transition duration-500 cursor-pointer hover:z-[999] hover:relative"
             />
           </motion.div>
           <motion.span
