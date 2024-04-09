@@ -35,7 +35,7 @@ export default function ThemeContextProivder({
   useEffect(() => {
     const localTheme = window.localStorage.getItem(
       "theme"
-    ) as ThemeSwitchProps | null;
+    ) as Theme | null;
 
     if (localTheme) {
       setTheme(localTheme);
