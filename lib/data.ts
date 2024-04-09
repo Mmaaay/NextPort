@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import asl from "/assets/Capture.png";
-import Hotel from "/assets/Capture2.png";
+import asl from "../public/assets/Capture.png";
+import Hotel from "../public/assets/Capture2.png";
 
 
 export const links = [
