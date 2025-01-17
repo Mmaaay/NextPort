@@ -5,7 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import asl from "../public/assets/Capture.jpg";
 import Hotel from "../public/assets/Capture2.png";
 import main from "../public/assets/main.jpg";
-import rooms from "../public/assets/rooms.jpg";
+import rooms from "../public/assets/room.jpg";
 
 export const links = [
   {
