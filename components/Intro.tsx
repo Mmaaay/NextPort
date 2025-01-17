@@ -37,7 +37,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="hover:relative hover:z-[999] border-[0.35rem] border-white shadow-xl rounded-full w-24 h-24 transition duration-700 cursor-pointer hover:scale-[2.5] object-cover"
+              className="hover:relative hover:z-[999] border-[0.35rem] border-white shadow-xl rounded-full w-24 h-24 transition duration-500 cursor-pointer hover:scale-[2] object-cover"
               onClick={() => setIsExpanded(!isExpanded)}
             />
           </motion.div>
